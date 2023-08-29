@@ -1,0 +1,65 @@
+
+*{
+    top: 0px;
+    margin: 0px;
+    padding: 0px;
+}
+
+.contenido{
+    height:100vh;
+    width: 100%;
+    background-color: black;
+    display: flex;
+    position: fixed;
+}
+
+.seccion{
+    width: 40%;
+    height: 80vh;
+    padding-top: 20vh;
+    padding-left: 10%;
+    padding-right: 30%;
+}
+
+.img{
+    width: 20%;
+    height: 100vh;
+    background-image: url(../img/Captura\ de\ pantalla\ \(107\).png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+h2{
+    color: white;
+    font-size: 80px;
+}
+h4{
+    color: white;
+    font-size: 28px; 
+}
+
+button{
+    background: #BBED2F;
+    width: 25%;
+    height: 40px;
+    border-radius: 40px;
+    text-align: center;
+    margin-left: 25%;
+    margin-top: 50px;
+    color: black;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 15px;
+}
+button:hover{
+    background: #84a42c;
+    width: 25%;
+    height: 40px;
+    border-radius: 40px;
+    text-align: center;
+    margin-left: 25%;
+    margin-top: 50px;
+    color: black;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 15px;
+}
+
